@@ -1,0 +1,81 @@
+#topping-words{
+    color: white;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    a{
+        color:white;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+
+#email-address{
+    color: grey;
+}
+.email-icon{
+    color: blue;
+    font-size: 30px;
+
+}
+.email-section{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 80px;
+    a{
+        color:black;
+        text-decoration: none;
+    }
+    
+}
+#phone-line-text{
+    color: grey;
+}
+.phone-line{
+    display: flex;
+    gap: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+#phone-number{
+    display: flex;
+}
+.fa-phone-volume{
+    padding-top:10px;
+}
+nav{
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+#home-word{
+    color: orange;
+}
+
