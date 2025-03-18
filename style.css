@@ -11,6 +11,7 @@ header{
 }
 body{
     overflow-x: hidden;
+    margin: auto;
 }
 
 #email-address{
@@ -78,4 +79,48 @@ nav ul li a {
 #home-word{
     color: orange;
 }
-
+.our-testimonials{
+    display: flex;
+}
+.our-home{
+    display: flex;
+}
+.couple-moving-in{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-left: 390px;
+}
+.unprepared-room img{
+    width: 50%;
+    margin-top: 300px;
+}
+.what-we-do{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+}
+.storage{
+    box-shadow: 1px;
+    background-color: blue;
+    width: 150px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.our-services{
+    text-align: center;
+}
+.logos{
+    text-align: center;
+    font-size: 1px;
+}
+.helping-you-every-step-of-the-way{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 200px;
+}
