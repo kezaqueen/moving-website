@@ -101,7 +101,10 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    margin-bottom: 0px;
     margin-left: 390px;
+    margin-top: 600px;
+    width: 100%
 }
 
 .unprepared-room img {
@@ -126,6 +129,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+
 .our-services {
     text-align: center;
 }
@@ -147,9 +152,6 @@ nav ul li a {
     border: 1px solid black;
     height: 700px;
 }
-
-.testimonial-container {}
-
 .images-container {
     display: flex;
     justify-content: center;
@@ -167,7 +169,7 @@ nav ul li a {
     background: white;
 }
 
-.updates {
+.update {
     margin: 20vh;
 }
 
@@ -284,4 +286,9 @@ footer p {
 
 ul li {
     color: white;
+}
+.background{
+    background-color: #FFD43B;
+    justify-content: space-between;
+    width: 25%;
 }
