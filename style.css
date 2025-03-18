@@ -1,61 +1,72 @@
-#topping-words{
+#topping-words {
     color: white;
 }
-header{
+
+header {
     background-color: black;
     text-align: center;
     padding: 15px 0px 15px 0px;
-    a{
-        color:white;
-    }
 }
-body{
+
+header a {
+    color: white;
+}
+
+body {
     overflow-x: hidden;
     margin: auto;
 }
 
-#email-address{
+#email-address {
     color: grey;
 }
-.email-icon{
+
+.email-icon {
     color: blue;
     font-size: 30px;
-
 }
-.email-section{
+
+.email-section {
     display: flex;
     gap: 20px;
     padding-top: 30px;
     padding-left: 80px;
-    a{
-        color:black;
-        text-decoration: none;
-    }
-    
 }
-#phone-line-text{
+
+.email-section a {
+    color: black;
+    text-decoration: none;
+}
+
+#phone-line-text {
     color: grey;
 }
-.phone-line{
+
+.phone-line {
     display: flex;
     gap: 30px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     padding-right: 100px;
     padding-top: 30px;
 }
-#phone-number{
+
+#phone-number {
     display: flex;
 }
-.fa-phone-volume{
-    padding-top:10px;
+
+.fa-phone-volume {
+    padding-top: 10px;
 }
-nav{
+
+nav {
     justify-content: center;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -63,11 +74,8 @@ nav ul{
     margin-left: 150px;
     margin-top: 40px;
 }
+
 nav ul li {
-    display: inline;
-    margin: 0 15px;
-    
-}nav ul li {
     display: inline;
     margin: 0 15px;
 }
@@ -76,34 +84,40 @@ nav ul li a {
     color: #333;
     text-decoration: none;
 }
-#home-word{
+
+#home-word {
     color: orange;
 }
-.our-testimonials{
+
+.our-testimonials {
     display: flex;
 }
-.our-home{
+
+.our-home {
     display: flex;
 }
-.couple-moving-in{
+
+.couple-moving-in {
     display: flex;
     justify-content: space-between;
     gap: 100px;
     margin-left: 390px;
 }
-.unprepared-room img{
+
+.unprepared-room img {
     width: 50%;
     margin-top: 300px;
 }
-.what-we-do{
+
+.what-we-do {
     display: flex;
     gap: 90px;
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 100px;
-    
 }
-.storage{
+
+.storage {
     box-shadow: 1px;
     background-color: blue;
     width: 150px;
@@ -111,16 +125,169 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-.our-services{
+
+.our-services {
     text-align: center;
 }
-.logos{
+
+.logos {
     text-align: center;
     font-size: 1px;
 }
-.helping-you-every-step-of-the-way{
+
+.helping-you-every-step-of-the-way {
     display: flex;
     justify-content: center;
     gap: 100px;
     margin-bottom: 200px;
+}
+
+.testimonials {
+    background-color: rgb(246, 246, 246);
+    /* border: 1px solid black; */
+    height: 700px;
+    margin-top: 100px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.image-container {
+    padding: 5vh;
+    height: 30vh;
+    background-color: white;
+    width: 27vh;
+}
+
+.image-container i {
+    background: white;
+}
+
+/* .updates {
+    margin: 20vh;
+} */
+
+.update-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-container i {
+    color: #F9B42E;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-container p {
+    background-color: rgb(246, 246, 246);
+    padding: 3vh;
+    padding-right: 35vh;
+}
+
+.input-container button {
+    border: none;
+    width: 15%;
+    height: 8vh;
+    margin-top: 1vh;
+    background-color: rgb(249, 180, 46);
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blog-container a {
+    color: #F9B42E;
+}
+
+.blog-container h1 {
+    color: black;
+}
+
+.bottom-image {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.bottom-image-container img {
+    width: 10
+    height: 100%;
+}
+
+.comment {
+    position: absolute;
+    bottom: 0;
+    right: 5;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.reviews {
+    width: 100%;
+    height: 20vh;
+    background-color: #F9B42E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reviews h1 {
+    color: white;
+}
+
+.reviews button {
+    height: 5vh;
+    border: none;
+    background-color: rgb(46, 44, 42);
+    color: white;
+    width: 12%;
+    padding: 2.5vh;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+footer {
+    height: 70vh;
+    background-color: rgb(46, 44, 42);
+    width: 100%;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.bottom-footer {
+    color: rgb(92, 92, 92);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+ul li {
+    color: white;
 }
