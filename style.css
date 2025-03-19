@@ -63,7 +63,13 @@ body {
 }
 
 nav {
-    justify-content: center;
+text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
 }
 
 nav ul {
@@ -98,13 +104,23 @@ nav ul li a {
 }
 
 .couple-moving-in {
+     max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #333;
+}
+.couple-moving-in h1 {
+    font-size: 3em;
+  margin-bottom: 0.5em;
+
+}
+.couple-moving-in-img{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
-    margin-bottom: 0px;
-    margin-left: 390px;
-    margin-top: 600px;
-    width: 100%
+    align-items: center;
+    margin-bottom: 30px
 }
 
 .unprepared-room img {
@@ -129,7 +145,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+#family-photo{
+    max-width: 100%;
+    height: auto;
 
+}
 
 .our-services {
     text-align: center;
@@ -155,16 +175,30 @@ nav ul li a {
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 4vh;
 }
 
 .image-container {
-    padding: 5vh;
-    height: 30vh;
+    height: auto;
     background-color: white;
-    width: 27vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
 }
-
+#overtext-button{
+    background-color: #ffa500;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.over-text h1{
+    font-size: 60px;
+    color: #333;
+}
 .image-container i {
     background: white;
 }
